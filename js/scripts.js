@@ -21,7 +21,7 @@ if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#fire2").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No") {
   $("#fire").show();
-} else if (q1 < "3") {
+} else if (q1 < "3" && q2 === "Yes" && q3 === "Yes") {
   $("#cave").show();
 } else if (q1 > "3") {
   $("#forest").show();
