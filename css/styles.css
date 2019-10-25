@@ -15,7 +15,7 @@ body {
 .results img {
   height: 300px;
   width: 450px;
-  
+
 }
 
 .results h3{
@@ -31,9 +31,6 @@ body {
   display: none;
 }
 
-#fire2 {
-  display: none;
-}
 
 #hatchling img {
   width: 350px;
@@ -80,6 +77,10 @@ body {
 #blue img {
   height: 150px;
   width: 200px;
+}
+
+#trans {
+  display: none;
 }
 
 #oops {
