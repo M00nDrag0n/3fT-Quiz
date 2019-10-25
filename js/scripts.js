@@ -3,12 +3,12 @@ $(document).ready(function() {
   $("#questions").submit(function(event) {
     event.preventDefault();
 
-var q1 = $("#q1").val();
+var qOne = $("#q1").val();
 
-var dragonSpecies;
+let dragonSpecies;
 
 
-if (q1 === "3") {
+if (qOne === "3") {
   dragonSpecies = ["Your Species Can Be Identified By Adding Up The Features Below:"]
   $("#fire").show();
 } else {
