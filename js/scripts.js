@@ -9,12 +9,11 @@ var dragonSpecies;
 
 
 if (q1 === "3") {
-  dragonSpecies = ["Your species is [insert species]"]
-  $("[Xresult]").show();
+  dragonSpecies = ["Your Species Can Be Identified By Adding Up The Features Below:"]
+  $("#fire").show();
 } else {
   dragonSpecies = ["Sorry. Your Species cannot be identified."]
 };
-console.log("I am alone but adored by a hundred thousand more then I said when you were the last...");
 
 // Dragon quiz: just like last time, one of each category, start simple. Have user combine effects.
 
@@ -22,7 +21,9 @@ console.log("I am alone but adored by a hundred thousand more then I said when y
 // if q3 and q4 = 10, show western dragon
 
 
+$("#results").append(dragonSpecies);
 
+console.log("I am alone but adored by a hundred thousand more then I said when you were the last...");
 
   });
 });

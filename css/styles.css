@@ -19,3 +19,7 @@ body {
 #fire img {
   width: 300px;
 }
+
+#fire {
+  display: none;
+}
