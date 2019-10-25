@@ -15,6 +15,12 @@ body {
 .results img {
   height: 300px;
   width: 450px;
+  margin-left: 20px;
+}
+
+.results h3{
+  width: 500px;
+  margin-top: 50px;
 }
 
 #fire img {
@@ -22,6 +28,10 @@ body {
 }
 
 #fire {
+  display: none;
+}
+
+#fire2 {
   display: none;
 }
 
@@ -38,8 +48,25 @@ body {
   display: none;
 }
 
+#cave {
+  display: none;
+}
+
 #western {
   display: none;
+}
+
+#eastern {
+  display: none;
+}
+
+#red {
+  display: none;
+}
+
+#red img {
+  height: 150px;
+  width: 200px;
 }
 
 #oops {
@@ -51,6 +78,6 @@ body {
 }
 
 
-#stubborn input{
+.stubborn input{
   margin-right: 15px;
 }

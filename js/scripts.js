@@ -6,20 +6,23 @@ $(document).ready(function() {
 var q1 = $("#q1").val();
 var q2 = $(".q2").val();
 var q3 = $(".q3").val();
-var q3 = $(".q4").val();
+var q4 = $(".q4").val();
+var q5 = $(".q5").val();
 
 let dragonSpecies;
 
 
-if (q1 === "3" && q2 === "Yes" && q3 === "Yes") {
-  $("#forest").show();
+if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
+  $("#cave").show();
   $("#western").show();
-  $("#fire").show();
   $("#hatchling").show();
+  $("#red").show();
+  $("#fire").show();
+  $("#fire2").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No") {
   $("#fire").show();
 } else if (q1 < "3") {
-  $("#fire").show();
+  $("#cave").show();
 } else if (q1 > "3") {
   $("#forest").show();
 } else if (q1 === "3") {
@@ -30,6 +33,7 @@ if (q1 === "3" && q2 === "Yes" && q3 === "Yes") {
   $("#fire").show();
 } else if (q3 === "Yes") {
   $("#hatchling").show();
+  $("#eastern").show();
 } else if (q3 === "No") {
   $("#western").show();
 } else {
