@@ -4,16 +4,34 @@ $(document).ready(function() {
     event.preventDefault();
 
 var q1 = $("#q1").val();
-var q2 = $("#q2").val();
+var q2 = $(".q2").val();
+var q3 = $(".q3").val();
+var q3 = $(".q4").val();
 
 let dragonSpecies;
 
 
-if (q1 === "3" && q2 === "No") {
+if (q1 === "3" && q2 === "Yes" && q3 === "Yes") {
+  $("#forest").show();
+  $("#western").show();
+  $("#fire").show();
   $("#hatchling").show();
+} else if (q1 < "3" && q2 === "No" && q3 === "No") {
   $("#fire").show();
-} else if (q2 === "false") {
+} else if (q1 < "3") {
   $("#fire").show();
+} else if (q1 > "3") {
+  $("#forest").show();
+} else if (q1 === "3") {
+  $("#fire").show();
+} else if (q2 === "Yes") {
+  $("#hatchling").show();
+} else if (q2 === "No") {
+  $("#fire").show();
+} else if (q3 === "Yes") {
+  $("#hatchling").show();
+} else if (q3 === "No") {
+  $("#western").show();
 } else {
   $("#oops").show();
 };

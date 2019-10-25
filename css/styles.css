@@ -33,10 +33,24 @@ body {
   display: none;
 }
 
+
+#forest {
+  display: none;
+}
+
+#western {
+  display: none;
+}
+
 #oops {
   display: none;
 }
 
 #oops img {
   width: 300px;
+}
+
+
+#stubborn input{
+  margin-right: 15px;
 }
