@@ -3,22 +3,25 @@ $(document).ready(function() {
   $("#questions").submit(function(event) {
     event.preventDefault();
 
-var qOne = $("#q1").val();
+var q1 = $("#q1").val();
+var q2 = $("#q2").val();
 
 let dragonSpecies;
 
 
-if (qOne === "3") {
-  dragonSpecies = ["Your Species Can Be Identified By Adding Up The Features Below:"]
+if (q1 === "3") {
   $("#fire").show();
+} else if (q2 <= 3) {
+  $("#hatchling").show();
 } else {
-  dragonSpecies = ["Sorry. Your Species cannot be identified."]
+  $("#oops").show();
 };
 
 // Dragon quiz: just like last time, one of each category, start simple. Have user combine effects.
 
 // if q1="_" || q1="_-_", show "fire"
 // if q3 and q4 = 10, show western dragon
+// gradually combine effects into a sequence of results which show
 
 
 $("#results").append(dragonSpecies);
