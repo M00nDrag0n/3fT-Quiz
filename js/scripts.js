@@ -17,201 +17,201 @@ let dragonSpecies;
 if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#western").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "No") {
-  $("#blue").show();
+  $("#eastern").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "No" && q4 === "0-3" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "No" && q4 === "0-3" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "No" && q4 === "0-3" && q5 === "No") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "No" && q4 === "0-3" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "No" && q4 === "3.5-6" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 
 
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "No" && q4 === "6.5-10" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "No" && q4 === "6.5-10" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "No" && q4 === "6.5-10" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "No" && q4 === "6.5-10" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 <= "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 <= "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#western").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "No") {
   $("#blue").show();
 } else if (q1 ==="3" && q2 === "Yes" && q3 === "No" && q4 === "0-3" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "0-3" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "0-3" && q5 === "No") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "0-3" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "3.5-6" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 
 
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "6.5-10" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "6.5-10" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "6.5-10" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "6.5-10" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
-  $("#western").show();
-} else if (q1 >= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "No") {
   $("#blue").show();
+} else if (q1 >= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "No") {
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "No" && q4 === "0-3" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "No" && q4 === "0-3" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "No" && q4 === "0-3" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "No" && q4 === "0-3" && q5 === "No") {
   $("#blue").show();
 
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "No" && q4 === "3.5-6" && q5 === "No") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "No") {
   $("#blue").show();
 
 
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "No" && q4 === "6.5-10" && q5 === "No") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "No" && q4 === "6.5-10" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "No" && q4 === "6.5-10" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "No" && q4 === "6.5-10" && q5 === "No") {
   $("#blue").show();
 
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "No") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
   $("#blue").show();
 } else if (q1 >= "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
-  $("#blue").show();
+  $("#western").show();
 } else if (q1 >= "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "No") {
   $("#blue").show();
 
