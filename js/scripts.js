@@ -361,8 +361,8 @@ if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 
 // Dragon quiz: just like last time, one of each category, start simple. Have user combine effects.
 
-// if q1="_" || q1="_-_", show "fire"
-// if q3 and q4 = 10, show western dragon
+// when more results are created, alternate them. Ex: q1="no", fire(show), q1="no", earth(show)
+
 // gradually combine effects into a sequence of results which show
 
 
