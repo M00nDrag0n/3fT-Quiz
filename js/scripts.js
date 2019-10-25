@@ -16,7 +16,10 @@ if (q1 === "3") {
 };
 console.log("I am alone but adored by a hundred thousand more then I said when you were the last...");
 
+// Dragon quiz: just like last time, one of each category, start simple. Have user combine effects.
 
+// if q1="_" || q1="_-_", show "fire"
+// if q3 and q4 = 10, show western dragon
 
 
 
