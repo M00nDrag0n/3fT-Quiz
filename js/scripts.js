@@ -9,33 +9,56 @@ var q3 = $(".q3").val();
 var q4 = $(".q4").val();
 var q5 = $(".q5").val();
 
+// var questions = [q1, q2, q3, q4, q5];
+
 let dragonSpecies;
 
-
-if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
-  $("#cave").show();
+// for (i = 0; i < questions; i++) {
+if (q1 <= "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#western").show();
-  $("#hatchling").show();
-  $("#red").show();
-  $("#fire").show();
-  $("#fire2").show();
-} else if (q1 < "3" && q2 === "No" && q3 === "No") {
-  $("#fire").show();
+
+} else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "No") {
+  $("#blue").show();
+
+} else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
+  $("#blue").show();
+
+} else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
+  $("#blue").show();
+
+} else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
+  $("#blue").show();
+  
+} else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
+  $("#blue").show();
+
+} else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
+  $("#blue").show();
+
+} else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
+  $("#blue").show();
+
 } else if (q1 < "3" && q2 === "Yes" && q3 === "Yes") {
   $("#cave").show();
-} else if (q1 > "3") {
+
+} else if (q1 > "3" && q2 === "Yes") {
   $("#forest").show();
-} else if (q1 === "3") {
-  $("#fire").show();
+
+} else if (q1 === "3" && q2 === "Yes") {
+  $("#eastern").show();
+
 } else if (q2 === "Yes") {
   $("#hatchling").show();
+
 } else if (q2 === "No") {
   $("#fire").show();
+
 } else if (q3 === "Yes") {
   $("#hatchling").show();
-  $("#eastern").show();
+
 } else if (q3 === "No") {
   $("#western").show();
+
 } else {
   $("#oops").show();
 };
@@ -50,7 +73,7 @@ if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 $("#results").append(dragonSpecies);
 
 console.log("I am alone but adored by a hundred thousand more then I said when you were the last...");
-
+// };
   });
 });
 

@@ -7,15 +7,15 @@ body {
 
 .results {
   /* DO NOT TYPE DISPLAY:NONE HERE */
-  float: left;
-  width: 30%;
+  /* float: left;
+  width: 30%; */
   text-align: center;
 }
 
 .results img {
   height: 300px;
   width: 450px;
-  margin-left: 20px;
+  
 }
 
 .results h3{
@@ -43,6 +43,10 @@ body {
   display: none;
 }
 
+#adult {
+  display: none;
+}
+
 
 #forest {
   display: none;
@@ -65,6 +69,15 @@ body {
 }
 
 #red img {
+  height: 150px;
+  width: 200px;
+}
+
+#blue {
+  display: none;
+}
+
+#blue img {
   height: 150px;
   width: 200px;
 }
