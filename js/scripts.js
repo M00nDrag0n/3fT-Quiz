@@ -9,10 +9,11 @@ var q2 = $("#q2").val();
 let dragonSpecies;
 
 
-if (q1 === "3") {
-  $("#fire").show();
-} else if (q2 <= 3) {
+if (q1 === "3" && q2 === "No") {
   $("#hatchling").show();
+  $("#fire").show();
+} else if (q2 === "false") {
+  $("#fire").show();
 } else {
   $("#oops").show();
 };
