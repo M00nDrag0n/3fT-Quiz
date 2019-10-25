@@ -1,4 +1,28 @@
 body {
   font-family: 'Spectral';
   font-size: 19px;
+  text-align: center;
+}
+
+.lists {
+  float: left;
+  width: 30%;
+  height: 300px;
+  border-color: #0900ad;
+  border-width: 5px;
+  border-style: solid;
+}
+
+ #left-side {
+  margin-left: 50px;
+}
+
+.lists li {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.done {
+  color: #d4d4d4;
+  text-decoration: line-through;
 }
