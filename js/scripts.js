@@ -16,13 +16,13 @@ let dragonSpecies;
 // for (i = 0; i < questions; i++) {
 if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#trans").show();
-  $("#black").show();
+  $("#purple").show();
   $("#forest").show();
   $("#eastern").show();
   $("#adolescent").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "No") {
-  $("#electricity").show();
+  $("#electricity2").show();
   $("#black").show();
   $("#forest").show();
   $("#eastern").show();
@@ -30,18 +30,21 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#earth").show();
 } else if (q1 < "3" && q2 === "Yes" && q3 === "No" && q4 === "0-3" && q5 === "Yes") {
   $("#fire2").show();
-  $("#black").show();
+  $("#purple").show();
   $("#cave").show();
   $("#eastern").show();
   $("#adolescent").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
+  $("#green").show();
   $("#trans").show();
   $("#forest").show();
   $("#eastern").show();
   $("#adolescent").show();
   $("#fire").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No" && q4 === "0-3" && q5 === "Yes") {
+  $("#green").show();
+  $("#fire2").show();
   $("#cave").show();
   $("#eastern").show();
   $("#adolescent").show();
@@ -54,6 +57,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#adolescent").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No" && q4 === "0-3" && q5 === "No") {
+  $("#yellow").show();
   $("#ice").show();
   $("#cave").show();
   $("#eastern").show();
@@ -62,7 +66,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 
 } else if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
   $("#trans").show();
-  $("#black").show();
+  $("#purple").show();
   $("#forest").show();
   $("#western").show();
   $("#adult").show();
@@ -75,25 +79,28 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#adult").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
-  $("#electricity").show();
+  $("#yellow").show();
+  $("#electricity2").show();
   $("#forest").show();
   $("#western").show();
   $("#adult").show();
   $("#fire").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
+  $("#green").show();
   $("#fire2").show();
   $("#cave").show();
   $("#western").show();
   $("#adult").show();
   $("#fire").show();
 } else if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
-  $("#electricity").show();
+  $("#electricity2").show();
   $("#black").show();
   $("#forest").show();
   $("#western").show();
   $("#adult").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
+  $("#green").show();
   $("#trans").show();
   $("#forest").show();
   $("#western").show();
@@ -101,12 +108,13 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#fire").show();
 } else if (q1 < "3" && q2 === "Yes" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
   $("#fire2").show();
-  $("#black").show();
+  $("#purple").show();
   $("#cave").show();
   $("#western").show();
   $("#adult").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "No") {
+  $("#yellow").show();
   $("#ice").show();
   $("#cave").show();
   $("#western").show();
@@ -116,7 +124,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 
 } else if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
   $("#trans").show();
-  $("#black").show();
+  $("#purple").show();
   $("#forest").show();
   $("#eastern").show();
   $("#elder").show();
@@ -129,37 +137,41 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#elder").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
-  $("#electricity").show();
+  $("#yellow").show();
+  $("#electricity2").show();
   $("#forest").show();
   $("#eastern").show();
   $("#elder").show();
   $("#fire").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No" && q4 === "6.5-10" && q5 === "Yes") {
+  $("#green").show();
   $("#fire2").show();
   $("#cave").show();
   $("#eastern").show();
   $("#elder").show();
   $("#fire").show();
 } else if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
-  $("#electricity").show();
+  $("#electricity2").show();
   $("#black").show();
   $("#forest").show();
   $("#eastern").show();
   $("#elder").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
+  $("#green").show();
   $("#forest").show();
   $("#eastern").show();
   $("#elder").show();
   $("#fire").show();
 } else if (q1 < "3" && q2 === "Yes" && q3 === "No" && q4 === "6.5-10" && q5 === "Yes") {
   $("#fire2").show();
-  $("#black").show();
+  $("#purple").show();
   $("#cave").show();
   $("#eastern").show();
   $("#elder").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No" && q4 === "6.5-10" && q5 === "No") {
+  $("#yellow").show();
   $("#ice").show();
   $("#cave").show();
   $("#eastern").show();
@@ -168,7 +180,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 
 } else if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
   $("#trans").show();
-  $("#black").show();
+  $("#purple").show();
   $("#forest").show();
   $("#eastern").show();
   $("#hatchling").show();
@@ -181,25 +193,28 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#hatchling").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
-  $("#electricity").show();
+  $("#yellow").show();
+  $("#electricity2").show();
   $("#forest").show();
   $("#eastern").show();
   $("#hatchling").show();
   $("#fire").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
+  $("#green").show();
   $("#fire2").show();
   $("#cave").show();
   $("#western").show();
   $("#hatchling").show();
   $("#fire").show();
 } else if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
-  $("#electricity").show();
+  $("#electricity2").show();
   $("#black").show();
   $("#forest").show();
   $("#eastern").show();
   $("#hatchling").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
+  $("#green").show();
   $("#trans").show();
   $("#forest").show();
   $("#western").show();
@@ -207,12 +222,13 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#fire").show();
 } else if (q1 < "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
   $("#fire2").show();
-  $("#black").show();
+  $("#purple").show();
   $("#cave").show();
   $("#eastern").show();
   $("#hatchling").show();
   $("#earth").show();
 } else if (q1 < "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "No") {
+  $("#yellow").show();
   $("#ice").show();
   $("#cave").show();
   $("#western").show();
@@ -220,18 +236,21 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#fire").show();
 
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
+  $("#grey").show();
   $("#trans").show();
   $("#forest").show();
   $("#eastern").show();
   $("#adolescent").show();
   $("#earth").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "No") {
-  $("#electricity").show();
+  $("#grey").show();
+  $("#electricity2").show();
   $("#forest").show();
   $("#eastern").show();
   $("#adolescent").show();
   $("#earth").show();
 } else if (q1 ==="3" && q2 === "Yes" && q3 === "No" && q4 === "0-3" && q5 === "Yes") {
+  $("#orange").show();
   $("#fire2").show();
   $("#cave").show();
   $("#eastern").show();
@@ -252,6 +271,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#adolescent").show();
   $("#fire").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "0-3" && q5 === "No") {
+  $("#grey").show();
   $("#ice").show();
   $("#cave").show();
   $("#eastern").show();
@@ -259,27 +279,29 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#earth").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "0-3" && q5 === "No") {
   $("#ice").show();
-  $("#blue").show();
+  $("#brown").show();
   $("#cave").show();
   $("#western").show();
   $("#adolescent").show();
   $("#fire").show();
 
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
+  $("#grey").show();
   $("#trans").show();
   $("#forest").show();
   $("#eastern").show();
   $("#adult").show();
   $("#earth").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "3.5-6" && q5 === "No") {
+  $("#grey").show();
   $("#ice").show();
   $("#cave").show();
   $("#western").show();
   $("#adult").show();
   $("#earth").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
-  $("#electricity").show();
-  $("#blue").show();
+  $("#electricity2").show();
+  $("#brown").show();
   $("#forest").show();
   $("#eastern").show();
   $("#adult").show();
@@ -293,7 +315,8 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#adult").show();
   $("#fire").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
-  $("#electricity").show();
+  $("#grey").show();
+  $("#electricity2").show();
   $("#forest").show();
   $("#eastern").show();
   $("#adult").show();
@@ -306,6 +329,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#adult").show();
   $("#fire").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
+  $("#orange").show();
   $("#fire2").show();
   $("#cave").show();
   $("#eastern").show();
@@ -313,7 +337,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#earth").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "No") {
   $("#ice").show();
-  $("#blue").show();
+  $("#brown").show();
   $("#cave").show();
   $("#western").show();
   $("#adult").show();
@@ -321,20 +345,22 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 
 
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
+  $("#grey").show();
   $("#trans").show();
   $("#forest").show();
   $("#eastern").show();
   $("#elder").show();
   $("#earth").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "6.5-10" && q5 === "No") {
+  $("#grey").show();
   $("#ice").show();
   $("#cave").show();
   $("#western").show();
   $("#elder").show();
   $("#earth").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
-  $("#electricity").show();
-  $("#blue").show();
+  $("#electricity2").show();
+  $("#brown").show();
   $("#forest").show();
   $("#eastern").show();
   $("#elder").show();
@@ -347,7 +373,8 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#elder").show();
   $("#fire").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
-  $("#electricity").show();
+  $("#grey").show();
+  $("#electricity2").show();
   $("#forest").show();
   $("#eastern").show();
   $("#elder").show();
@@ -360,33 +387,36 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#elder").show();
   $("#fire").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "6.5-10" && q5 === "Yes") {
+  $("#orange").show();
   $("#cave").show();
   $("#eastern").show();
   $("#elder").show();
   $("#earth").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "6.5-10" && q5 === "No") {
   $("#ice").show();
-  $("#blue").show();
+  $("#brown").show();
   $("#cave").show();
   $("#western").show();
   $("#elder").show();
   $("#fire").show();
 
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
+  $("#grey").show();
   $("#trans").show();
   $("#forest").show();
   $("#eastern").show();
   $("#hatchling").show();
   $("#earth").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "No") {
+  $("#grey").show();
   $("#ice").show();
   $("#cave").show();
   $("#western").show();
   $("#hatchling").show();
   $("#earth").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
-  $("#electricity").show();
-  $("#blue").show();
+  $("#electricity2").show();
+  $("#brown").show();
   $("#forest").show();
   $("#eastern").show();
   $("#hatchling").show();
@@ -399,7 +429,8 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#hatchling").show();
   $("#fire").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
-  $("#electricity").show();
+  $("#grey").show();
+  $("#electricity2").show();
   $("#forest").show();
   $("#eastern").show();
   $("#hatchling").show();
@@ -412,6 +443,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#hatchling").show();
   $("#fire").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
+  $("#orange").show();
   $("#fire2").show();
   $("#cave").show();
   $("#eastern").show();
@@ -419,7 +451,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#earth").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "No") {
   $("#ice").show();
-  $("#blue").show();
+  $("#brown").show();
   $("#cave").show();
   $("#western").show();
   $("#hatchling").show();
@@ -427,13 +459,13 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 
 } else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#trans").show();
-  $("#white").show();
+  $("#pink").show();
   $("#forest").show();
   $("#eastern").show();
   $("#adolescent").show();
   $("#earth").show();
 } else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "No") {
-  $("#electricity").show();
+  $("#electricity2").show();
   $("#white").show();
   $("#forest").show();
   $("#western").show();
@@ -477,7 +509,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 
 } else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "Yes") {
   $("#trans").show();
-  $("#white").show();
+  $("#pink").show();
   $("#forest").show();
   $("#western").show();
   $("#adult").show();
@@ -490,8 +522,8 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#adult").show();
   $("#earth").show();
 } else if (q1 > "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
-  $("#electricity").show();
-  $("#red").show();
+  $("#electricity2").show();
+  $("#turquoise").show();
   $("#forest").show();
   $("#western").show();
   $("#adult").show();
@@ -504,7 +536,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#adult").show();
   $("#fire").show();
 } else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
-  $("#electricity").show();
+  $("#electricity2").show();
   $("#white").show();
   $("#forest").show();
   $("#western").show();
@@ -535,7 +567,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 
 } else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "Yes") {
   $("#trans").show();
-  $("#white").show();
+  $("#pink").show();
   $("#forest").show();
   $("#western").show();
   $("#elder").show();
@@ -548,8 +580,8 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#elder").show();
   $("#fire").show();
 } else if (q1 > "3" && q2 === "No" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
-  $("#electricity").show();
-  $("#red").show();
+  $("#electricity2").show();
+  $("#turquoise").show();
   $("#forest").show();
   $("#western").show();
   $("#elder").show();
@@ -562,7 +594,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#elder").show();
   $("#fire").show();
 } else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4 === "6.5-10" && q5 === "No") {
-  $("#electricity").show();
+  $("#electricity2").show();
   $("#white").show();
   $("#forest").show();
   $("#western").show();
@@ -592,7 +624,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
 
 } else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
   $("#trans").show();
-  $("#white").show();
+  $("#pink").show();
   $("#forest").show();
   $("#western").show();
   $("#hatchling").show();
@@ -605,8 +637,8 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#hatchling").show();
   $("#earth").show();
 } else if (q1 > "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
-  $("#electricity").show();
-  $("#red").show();
+  $("#electricity2").show();
+  $("#turquoise").show();
   $("#forest").show();
   $("#western").show();
   $("#hatchling").show();
@@ -619,7 +651,7 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#hatchling").show();
   $("#fire").show();
 } else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
-  $("#electricity").show();
+  $("#electricity2").show();
   $("#white").show();
   $("#forest").show();
   $("#western").show();

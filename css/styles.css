@@ -37,6 +37,30 @@ body {
   display: none;
 }
 
+#earth2 {
+  display: none;
+}
+
+#water {
+  display: none;
+}
+
+#air {
+  display: none;
+}
+
+#metal {
+  display: none;
+}
+
+#electricity {
+  display: none;
+}
+
+#ice {
+  display: none;
+}
+
 #hatchling img {
   width: 350px;
 }
@@ -99,6 +123,38 @@ body {
   display: none;
 }
 
+#grey {
+  display: none;
+}
+
+#green {
+  display: none;
+}
+
+#purple {
+  display: none;
+}
+
+#brown {
+  display: none;
+}
+
+#pink {
+  display: none;
+}
+
+#yellow {
+  display: none;
+}
+
+#orange {
+  display: none;
+}
+
+#turquoise {
+  display: none;
+}
+
 #trans {
   display: none;
 }
@@ -107,7 +163,8 @@ body {
   display: none;
 }
 
-#electricity {
+
+#electricity2 {
   display: none;
 }
 
