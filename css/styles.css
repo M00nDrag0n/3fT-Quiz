@@ -15,12 +15,14 @@ body {
 .results img {
   height: 300px;
   width: 450px;
+  margin-top: 50px;
 
 }
 
 .results h3{
   width: 500px;
   margin-top: 50px;
+  margin-left: 470px;
 }
 
 #fire img {
@@ -98,6 +100,18 @@ body {
 }
 
 #trans {
+  display: none;
+}
+
+#fire2 {
+  display: none;
+}
+
+#electricity {
+  display: none;
+}
+
+#ice {
   display: none;
 }
 
