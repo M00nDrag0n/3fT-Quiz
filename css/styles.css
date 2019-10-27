@@ -31,6 +31,9 @@ body {
   display: none;
 }
 
+#earth {
+  display: none;
+}
 
 #hatchling img {
   width: 350px;
@@ -40,10 +43,17 @@ body {
   display: none;
 }
 
+#adolescent {
+  display: none;
+}
+
 #adult {
   display: none;
 }
 
+#elder {
+  display: none;
+}
 
 #forest {
   display: none;
@@ -77,6 +87,14 @@ body {
 #blue img {
   height: 150px;
   width: 200px;
+}
+
+#black {
+  display: none;
+}
+
+#white {
+  display: none;
 }
 
 #trans {
