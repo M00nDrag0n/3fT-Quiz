@@ -89,6 +89,50 @@ body {
   display: none;
 }
 
+#mountain {
+  display: none;
+}
+
+#graveyard {
+  display: none;
+}
+
+#lr-t {
+  display: none;
+}
+
+#desert {
+  display: none;
+}
+
+#river {
+  display: none;
+}
+
+#ocean {
+  display: none;
+}
+
+#seafloor {
+  display: none;
+}
+
+#glacier {
+  display: none;
+}
+
+#jungle {
+  display: none;
+}
+
+#space {
+  display: none;
+}
+
+#house {
+  display: none;
+}
+
 #western {
   display: none;
 }
