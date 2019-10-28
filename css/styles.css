@@ -216,6 +216,38 @@ body {
   display: none;
 }
 
+#necro {
+  display: none;
+}
+
+#photosynth {
+  display: none;
+}
+
+#regen {
+  display: none;
+}
+
+#radiation {
+  display: none;
+}
+
+#weather {
+  display: none;
+}
+
+#water2 {
+  display: none;
+}
+
+#time {
+  display: none;
+}
+
+#corrosion {
+  display: none;
+}
+
 #oops {
   display: none;
 }
