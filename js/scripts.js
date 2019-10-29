@@ -15,12 +15,12 @@ let dragonSpecies;
 
 // for (i = 0; i < questions; i++) {
 if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
-  $("#trans").show();
   $("#time").show();
+  $("#eastern").show();
+  $("#trans").show();
+  $("#adolescent").show();
   $("#purple").show();
   $("#forest").show();
-  $("#eastern").show();
-  $("#adolescent").show();
   $("#electricity").show();
 } else if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "No") {
   $("#electricity2").show();
@@ -326,11 +326,11 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#adult").show();
   $("#water").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "3.5-6" && q5 === "No") {
+  $("#adult").show();
   $("#electricity2").show();
   $("#brown").show();
   $("#forest").show();
   $("#eastern").show();
-  $("#adult").show();
   $("#metal").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "3.5-6" && q5 === "Yes") {
   $("#fire2").show();
@@ -452,26 +452,26 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#hatchling").show();
   $("#metal").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
+  $("#hatchling").show();
   $("#fire2").show();
   $("#blue").show();
   $("#forest").show();
   $("#western").show();
-  $("#hatchling").show();
   $("#fire").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4 === "11+" && q5 === "No") {
+  $("#hatchling").show();
   $("#grey").show();
   $("#electricity2").show();
   $("#glacier").show();
   $("#eastern").show();
-  $("#hatchling").show();
   $("#ice").show();
 } else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4 === "11+" && q5 === "Yes") {
+  $("#hatchling").show();
   $("#trans").show();
   $("#blue").show();
   $("#house").show();
   $("#forest").show();
   $("#western").show();
-  $("#hatchling").show();
   $("#earth").show();
 } else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4 === "11+" && q5 === "Yes") {
   $("#orange").show();
