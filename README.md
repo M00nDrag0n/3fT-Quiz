@@ -18,7 +18,7 @@ _This is an attempt at overcomplicating a simple project involving the show and 
 
 ## Setup/Installation Requirements
 
-* _Copy this link [  ] and paste it into your browser. _
+* _Copy this link [ https://m00ndrag0n.github.io/3fT-Quiz/ ] and paste it into your browser. _
 * _Answer questions for fun!_
 
 
