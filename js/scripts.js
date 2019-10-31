@@ -9,13 +9,12 @@ var q3 = $("#q3").val();
 var q4 = $("#q4").val();
 var q5 = $("#q5").val();
 
-var questions = [q1, q2, q3, q4, q5];
+// var questions = [q1, q2, q3, q4, q5];
 
 let dragonSpecies;
 
-// for (i = 0; i < questions; i++) {
+
 if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
-  dragonSpecies = "Eastern, Purple, Electric Forest Dragon of Transformation and Time";
   $("#time").show();
   $("#eastern").show();
   $("#trans").show();
@@ -725,32 +724,36 @@ if (q1 < "3" && q2 === "Yes" && q3 === "Yes" && q4 === "0-3" && q5 === "Yes") {
   $("#hatchling").show();
   $("#earth2").show();
 
-} else if (q1 > "3") {
-  $("#western").show();
-} else if (q1 === "3") {
-  $("#western").show();
-} else if (q1 < "3") {
-  $("#eastern").show();
-} else if (q2 === "Yes") {
-  $("#water").show();
-} else if (q2 === "No") {
-  $("#fire").show();
-} else if (q3 === "Yes") {
-  $("#forest").show();
-} else if (q3 === "No") {
-  $("#cave").show();
-} else if (q4 === "0-3") {
-  $("#adolescent").show();
-} else if (q4 === "3.5-6") {
-  $("#adult").show();
-} else if (q4 === "6.5-10") {
-  $("#elder").show();
-} else if (q4 === "11+") {
-  $("#hatchling").show();
-if (q5 === "Yes") {
-  $("#photosynth").show();
-} else if (q5 === "No") {
-  $("#ice2").show();
+// } else if (q1 > "3") {
+//   $("#western").show();
+// } else if (q1 === "3") {
+//
+//   $("#western").show();
+// } else if (q1 < "3") {
+//
+//   $("#eastern").show();
+// } else if (q2 === "Yes") {
+//   $("#water").show();
+// } else if (q2 === "No") {
+//   $("#fire").show();
+// } else if (q3 === "Yes") {
+//   $("#forest").show();
+// } else if (q3 === "No") {
+//   $("#cave").show();
+//
+// } else if (q4 === "0-3") {
+//   $("#adolescent").show();
+// } else if (q4 === "3.5-6") {
+//   $("#adult").show();
+// } else if (q4 === "6.5-10") {
+//   $("#elder").show();
+// } else if (q4 === "11+") {
+//
+//   $("#hatchling").show();
+// } else if (q5 === "Yes") {
+//   $("#photosynth").show();
+// } else if (q5 === "No") {
+//   $("#ice2").show();
 } else {
   $("#oops").show();
 };
