@@ -443,35 +443,35 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#eastern").show();
   $("#hatchling").show();
   $("#electricity").show();
-} else if (q1 === "3" && q2yes === "Yes" && q3no === "No" && q4d === "11+" && q5no === "No") {
+} else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4d === "11+" && q5 === "No") {
   $("#grey").show();
   $("#ice2").show();
   $("#jungle").show();
   $("#western").show();
   $("#hatchling").show();
   $("#water").show();
-} else if (q1 === "3" && q2no === "No" && q3yes === "Yes" && q4d === "11+" && q5no === "No") {
+} else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4d === "11+" && q5 === "No") {
   $("#electricity2").show();
   $("#brown").show();
   $("#forest").show();
   $("#eastern").show();
   $("#hatchling").show();
   $("#metal").show();
-} else if (q1 === "3" && q2no === "No" && q3no === "No" && q4d === "11+" && q5yes === "Yes") {
+} else if (q1 === "3" && q2 === "No" && q3 === "No" && q4d === "11+" && q5 === "Yes") {
   $("#hatchling").show();
   $("#fire2").show();
   $("#blue").show();
   $("#forest").show();
   $("#western").show();
   $("#fire").show();
-} else if (q1 === "3" && q2yes === "Yes" && q3yes === "Yes" && q4d === "11+" && q5no === "No") {
+} else if (q1 === "3" && q2 === "Yes" && q3 === "Yes" && q4d === "11+" && q5 === "No") {
   $("#hatchling").show();
   $("#grey").show();
   $("#electricity2").show();
   $("#glacier").show();
   $("#eastern").show();
   $("#ice").show();
-} else if (q1 === "3" && q2no === "No" && q3yes === "Yes" && q4d === "11+" && q5yes === "Yes") {
+} else if (q1 === "3" && q2 === "No" && q3 === "Yes" && q4d === "11+" && q5 === "Yes") {
   $("#hatchling").show();
   $("#trans").show();
   $("#blue").show();
@@ -479,14 +479,14 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#forest").show();
   $("#western").show();
   $("#earth").show();
-} else if (q1 === "3" && q2yes === "Yes" && q3no === "No" && q4d === "11+" && q5yes === "Yes") {
+} else if (q1 === "3" && q2 === "Yes" && q3 === "No" && q4d === "11+" && q5 === "Yes") {
   $("#orange").show();
   $("#fire2").show();
   $("#cave").show();
   $("#eastern").show();
   $("#hatchling").show();
   $("#air").show();
-} else if (q1 === "3" && q2no === "No" && q3no === "No" && q4d === "11+" && q5no === "No") {
+} else if (q1 === "3" && q2 === "No" && q3 === "No" && q4d === "11+" && q5 === "No") {
   $("#ice2").show();
   $("#brown").show();
   $("#seafloor").show();
@@ -494,7 +494,7 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#hatchling").show();
   $("#earth2").show();
 
-} else if (q1 > "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4a === "0-3" && q5 === "Yes") {
   $("#corrosion").show();
   $("#radiation").show();
   $("#pink").show();
@@ -502,14 +502,14 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#eastern").show();
   $("#adolescent").show();
   $("#electricity").show();
-} else if (q1 > "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5no === "No") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4a === "0-3" && q5 === "No") {
   $("#electricity2").show();
   $("#white").show();
   $("#glacier").show();
   $("#western").show();
   $("#adolescent").show();
   $("#ice").show();
-} else if (q1 > "3" && q2yes === "Yes" && q3no === "No" && q4a === "0-3" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "No" && q4a === "0-3" && q5 === "Yes") {
   $("#fire2").show();
   $("#water2").show();
   $("#white").show();
@@ -517,7 +517,7 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#eastern").show();
   $("#adolescent").show();
   $("#air").show();
-} else if (q1 > "3" && q2no === "No" && q3yes === "Yes" && q4a === "0-3" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "No" && q3 === "Yes" && q4a === "0-3" && q5 === "Yes") {
   $("#trans").show();
   $("#regen").show();
   $("#red").show();
@@ -525,28 +525,28 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#western").show();
   $("#adolescent").show();
   $("#earth").show();
-} else if (q1 > "3" && q2no === "No" && q3no === "No" && q4a === "0-3" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "No" && q3 === "No" && q4a === "0-3" && q5 === "Yes") {
   $("#fire2").show();
   $("#red").show();
   $("#mountain").show();
   $("#eastern").show();
   $("#adolescent").show();
   $("#fire").show();
-} else if (q1 > "3" && q2yes === "Yes" && q3no === "No" && q4a === "0-3" && q5no === "No") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "No" && q4a === "0-3" && q5 === "No") {
   $("#ice2").show();
   $("#white").show();
   $("#jungle").show();
   $("#western").show();
   $("#adolescent").show();
   $("#water").show();
-} else if (q1 > "3" && q2no === "No" && q3no === "No" && q4a === "0-3" && q5no === "No") {
+} else if (q1 > "3" && q2 === "No" && q3 === "No" && q4a === "0-3" && q5 === "No") {
   $("#ice2").show();
   $("#red").show();
   $("#seafloor").show();
   $("#eastern").show();
   $("#adolescent").show();
   $("#earth2").show();
-} else if (q1 > "3" && q2no === "No" && q3yes === "Yes" && q4a === "0-3" && q5no === "No") {
+} else if (q1 > "3" && q2 === "No" && q3 === "Yes" && q4a === "0-3" && q5 === "No") {
   $("#electricity2").show();
   $("#turquoise").show();
   $("#mountain").show();
@@ -554,49 +554,49 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#adolescent").show();
   $("#metal").show();
 
-} else if (q1 > "3" && q2yes === "Yes" && q3yes === "Yes" && q4b === "3.5-6" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4b === "3.5-6" && q5 === "Yes") {
   $("#trans").show();
   $("#pink").show();
   $("#desert").show();
   $("#western").show();
   $("#adult").show();
   $("#electricity").show();
-} else if (q1 > "3" && q2yes === "Yes" && q3no === "No" && q4b === "3.5-6" && q5no === "No") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "No" && q4b === "3.5-6" && q5 === "No") {
   $("#ice2").show();
   $("#white").show();
   $("#ocean").show();
   $("#eastern").show();
   $("#adult").show();
   $("#water").show();
-} else if (q1 > "3" && q2no === "No" && q3yes === "Yes" && q4b === "3.5-6" && q5no === "No") {
+} else if (q1 > "3" && q2 === "No" && q3 === "Yes" && q4b === "3.5-6" && q5 === "No") {
   $("#electricity2").show();
   $("#turquoise").show();
   $("#mountain").show();
   $("#western").show();
   $("#adult").show();
   $("#metal").show();
-} else if (q1 > "3" && q2no === "No" && q3no === "No" && q4b === "3.5-6" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "No" && q3 === "No" && q4b === "3.5-6" && q5 === "Yes") {
   $("#fire2").show();
   $("#red").show();
   $("#mountain").show();
   $("#eastern").show();
   $("#adult").show();
   $("#fire").show();
-} else if (q1 > "3" && q2yes === "Yes" && q3yes === "Yes" && q4b === "3.5-6" && q5no === "No") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4b === "3.5-6" && q5 === "No") {
   $("#electricity2").show();
   $("#white").show();
   $("#glacier").show();
   $("#western").show();
   $("#adult").show();
   $("#ice").show();
-} else if (q1 > "3" && q2no === "No" && q3yes === "Yes" && q4b === "3.5-6" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "No" && q3 === "Yes" && q4b === "3.5-6" && q5 === "Yes") {
   $("#trans").show();
   $("#red").show();
   $("#mountain").show();
   $("#eastern").show();
   $("#adult").show();
   $("#earth").show();
-} else if (q1 > "3" && q2yes === "Yes" && q3no === "No" && q4b === "3.5-6" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "No" && q4b === "3.5-6" && q5 === "Yes") {
   $("#fire2").show();
   $("#corrosion").show();
   $("#black").show();
@@ -604,7 +604,7 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#western").show();
   $("#adult").show();
   $("#air").show();
-} else if (q1 > "3" && q2no === "No" && q3no === "No" && q4b === "3.5-6" && q5no === "No") {
+} else if (q1 > "3" && q2 === "No" && q3 === "No" && q4b === "3.5-6" && q5 === "No") {
   $("#ice2").show();
   $("#red").show();
   $("#seafloor").show();
@@ -613,42 +613,42 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#earth2").show();
 
 
-} else if (q1 > "3" && q2yes === "Yes" && q3yes === "Yes" && q4c === "6.5-10" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4c === "6.5-10" && q5 === "Yes") {
   $("#trans").show();
   $("#pink").show();
   $("#desert").show();
   $("#western").show();
   $("#elder").show();
   $("#electricity").show();
-} else if (q1 > "3" && q2yes === "Yes" && q3no === "No" && q4c === "6.5-10" && q5no === "No") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "No" && q4c === "6.5-10" && q5 === "No") {
   $("#ice2").show();
   $("#white").show();
   $("#ocean").show();
   $("#eastern").show();
   $("#elder").show();
   $("#water").show();
-} else if (q1 > "3" && q2no === "No" && q3yes === "Yes" && q4c === "6.5-10" && q5no === "No") {
+} else if (q1 > "3" && q2 === "No" && q3 === "Yes" && q4c === "6.5-10" && q5 === "No") {
   $("#electricity2").show();
   $("#turquoise").show();
   $("#mountain").show();
   $("#western").show();
   $("#elder").show();
   $("#metal").show();
-} else if (q1 > "3" && q2no === "No" && q3no === "No" && q4c === "6.5-10" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "No" && q3 === "No" && q4c === "6.5-10" && q5 === "Yes") {
   $("#fire2").show();
   $("#red").show();
   $("#mountain").show();
   $("#eastern").show();
   $("#elder").show();
   $("#fire").show();
-} else if (q1 > "3" && q2yes === "Yes" && q3yes === "Yes" && q4c === "6.5-10" && q5no === "No") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "Yes" && q4c === "6.5-10" && q5 === "No") {
   $("#electricity2").show();
   $("#white").show();
   $("#glacier").show();
   $("#western").show();
   $("#elder").show();
   $("#ice").show();
-} else if (q1 > "3" && q2no === "No" && q3yes === "Yes" && q4c === "6.5-10" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "No" && q3 === "Yes" && q4c === "6.5-10" && q5 === "Yes") {
   $("#trans").show();
   $("#red").show();
   $("#mountain").show();
@@ -656,13 +656,16 @@ if (q1 < "3" && q2yes === "Yes" && q3yes === "Yes" && q4a === "0-3" && q5yes ===
   $("#elder").show();
   $("#fire2").show();
   $("#earth").show();
-} else if (q1 > "3" && q2yes === "Yes" && q3no === "No" && q4c === "6.5-10" && q5yes === "Yes") {
+} else if (q1 > "3" && q2 === "Yes" && q3 === "No" && q4c === "6.5-10" && q5 === "Yes") {
   $("#fire2").show();
   $("#white").show();
   $("#ocean").show();
   $("#western").show();
   $("#elder").show();
   $("#air").show();
+
+// STOPPING POINT
+
 } else if (q1 > "3" && q2no === "No" && q3no === "No" && q4c === "6.5-10" && q5no === "No") {
   $("#ice2").show();
   $("#red").show();
