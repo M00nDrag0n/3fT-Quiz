@@ -8,26 +8,27 @@
   <title>Dragon Quiz</title>
 </head>
 
-<!-- Note: add input ids al the way down "yes1, no1, yes2, no2, whatever". If this does not solve problem, hide all codes and just make "are you a red dragon? Yes No" -->
+<!-- Note: add input ids all the way down "yes1, no1, yes2, no2, whatever". If this does not solve problem, hide all codes and just make "are you a red dragon? Yes No" -->
 <body>
   <h1>Dragon Personality Quiz</h1>
   <h2>What Type Of Dragon Are You?</h2>
   <div class="container">
     <div class="entireQuiz">
+
       <form id="questions">
         <label for="q1">How Old, In Years, Is Your Imaginary Pet Cat?</label>
         <input id="q1" type="text"><br>
 
         <div id="q2">
           <h4>Did you drink any water today?</h4>
-          <input type = "radio" name = "ingestion" value="Yes">Yes
-          <input type = "radio" name = "ingestion" value="No">No
+          <input id = "q2yes" type = "radio" name = "ingestion" value="Yes">Yes
+          <input id = "q2no" type = "radio" name = "ingestion" value="No">No
         </div>
 
         <div id="q3">
           <h4>Do you like to eat fruit?</h4>
-          <input type = "radio" name = "fruit" value="Yes">Yes
-          <input type = "radio" name = "fruit" value="No">No
+          <input id = "q3yes" type = "radio" name = "fruit" value="Yes">Yes
+          <input id = "q3no" type = "radio" name = "fruit" value="No">No
         </div>
 
 
@@ -36,16 +37,16 @@
 
         <div id="q4">
           <h4>How many hours of sleep did you get last night?</h4>
-          <input type = "radio" name = "sleep" value="0-3">0-3
-          <input type = "radio" name = "sleep" value="3.5-6">3.5-6
-          <input type = "radio" name = "sleep" value="6.5-10">6.5-10
-          <input type = "radio" name = "sleep" value="11+">11+
+          <input id = "q4a" type = "radio" name = "sleep" value="0-3">0-3
+          <input id = "q4b" type = "radio" name = "sleep" value="3.5-6">3.5-6
+          <input id = "q4c" type = "radio" name = "sleep" value="6.5-10">6.5-10
+          <input id = "q4d" type = "radio" name = "sleep" value="11+">11+
         </div>
 
         <div id="q5">
           <h4>Are You Easily Distracted?</h4>
-          <input type = "radio" name = "distract" value="Yes">Yes
-          <input type = "radio" name = "distract" value="No">No
+          <input id = "q5yes" type = "radio" name = "distract" value="Yes">Yes
+          <input id = "q5no" type = "radio" name = "distract" value="No">No
         </div>
 
 
