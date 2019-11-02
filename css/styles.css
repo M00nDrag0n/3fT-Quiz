@@ -22,40 +22,17 @@ body {
   margin-left: 470px;
 }
 
-#fire img {
-  width: 300px;
-}
 
+ #earth, #earth2, #water, #air, #metal, #electricity,  #ice, #adolescent, #adult, #elder, #forest, #cave, #mountain, #graveyard, #lr-t, #desert, #river, #ocean, #seafloor, #glacier, #jungle, #space, #house {
+
+  display: none;
+}
 #fire {
   display: none;
 }
 
-#earth {
-  display: none;
-}
-
-#earth2 {
-  display: none;
-}
-
-#water {
-  display: none;
-}
-
-#air {
-  display: none;
-}
-
-#metal {
-  display: none;
-}
-
-#electricity {
-  display: none;
-}
-
-#ice {
-  display: none;
+#fire img {
+  width: 300px;
 }
 
 #hatchling img {
@@ -66,77 +43,7 @@ body {
   display: none;
 }
 
-#adolescent {
-  display: none;
-}
 
-#adult {
-  display: none;
-}
-
-#elder {
-  display: none;
-}
-
-#forest {
-  display: none;
-}
-
-#cave {
-  display: none;
-}
-
-#mountain {
-  display: none;
-}
-
-#graveyard {
-  display: none;
-}
-
-#lr-t {
-  display: none;
-}
-
-#desert {
-  display: none;
-}
-
-#river {
-  display: none;
-}
-
-#ocean {
-  display: none;
-}
-
-#seafloor {
-  display: none;
-}
-
-#glacier {
-  display: none;
-}
-
-#jungle {
-  display: none;
-}
-
-#space {
-  display: none;
-}
-
-#house {
-  display: none;
-}
-
-#western {
-  display: none;
-}
-
-#eastern {
-  display: none;
-}
 
 #red {
   display: none;
@@ -156,93 +63,20 @@ body {
   width: 200px;
 }
 
-#black {
+#eastern, #western, #black, #white, #grey, #green, #purple, #brown, #pink, #yellow, #orange, #turquoise, #trans, #fire2, #electricity2, #ice2, #necro, #photosynth, #regen, #radiation, #weather, #water2, #time, #corrosion {
   display: none;
 }
 
-#white {
-  display: none;
+#reload {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+
 }
 
-#grey {
-  display: none;
-}
-
-#green {
-  display: none;
-}
-
-#purple {
-  display: none;
-}
-
-#brown {
-  display: none;
-}
-
-#pink {
-  display: none;
-}
-
-#yellow {
-  display: none;
-}
-
-#orange {
-  display: none;
-}
-
-#turquoise {
-  display: none;
-}
-
-#trans {
-  display: none;
-}
-
-#fire2 {
-  display: none;
-}
-
-
-#electricity2 {
-  display: none;
-}
-
-#ice2 {
-  display: none;
-}
-
-#necro {
-  display: none;
-}
-
-#photosynth {
-  display: none;
-}
-
-#regen {
-  display: none;
-}
-
-#radiation {
-  display: none;
-}
-
-#weather {
-  display: none;
-}
-
-#water2 {
-  display: none;
-}
-
-#time {
-  display: none;
-}
-
-#corrosion {
-  display: none;
+#reload:hover {
+    color: #8cdeff;
+    background-color: black;
 }
 
 #oops {

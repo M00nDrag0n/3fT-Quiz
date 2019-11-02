@@ -17,6 +17,10 @@ var q5no = $("#q5no").val();
 
 // var questions = [q1, q2, q3, q4, q5];
 
+$("#reload").click(function() {
+  location.reload();
+})
+
 let dragonSpecies;
 
 
