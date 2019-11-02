@@ -1,0 +1,17 @@
+body {
+  font-family: 'Spectral';
+  font-size: 20px;
+  text-align: center;
+}
+
+#paperClip, #paper, #zorilla, #oops, #reload {
+  display: none;
+  text-align: center;
+  position: relative;
+
+}
+
+#oops img, #paperClip img {
+  height: 300px;
+  width: 300px;
+}
